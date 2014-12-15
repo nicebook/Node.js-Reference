@@ -6,6 +6,12 @@ var connection = mysql.createConnection({
     password: 'fred1234'
 });
 
-connection.connect();
+connection.connect(function(err)
 
-connection.end();
+    if (err)
+        throw err;
+
+    console.log('Connected');
+
+    connection.end();
+});
