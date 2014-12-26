@@ -1,9 +1,9 @@
-var I18N = require('i18n-2');
+var I18n = require('i18n-2');
 
-var i18n = new I18N({
-	locales: [ 'en', 'zh-TW' ]
+var i18n = new I18n({
+	locales: [ 'en', 'zh-tw' ]
 });
 
-i18n.setLocale('zh-TW');
+i18n.setLocale('zh-tw');
 
 console.log(i18n.__('Hello!'));
