@@ -1,0 +1,13 @@
+<products>
+    <item type="old">
+        <name>Super Car</name>
+        <color>Blue</color>
+        <price>100</price>
+    </item>
+
+    <item type="new">
+        <name>Fancy Car</name>
+        <color>Green</color>
+        <price>150</price>
+    </item>
+</products>
