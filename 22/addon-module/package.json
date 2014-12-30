@@ -1,0 +1,9 @@
+{
+    "name": "addon-module",
+    "version": "0.0.1",
+    "description": "My first native module",
+    "main": "./build/Release/addon-module.node",
+    "scripts": {
+        "install": "node-gyp configure build"
+    }
+}
