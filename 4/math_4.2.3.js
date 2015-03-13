@@ -1,0 +1,21 @@
+var math = require('mathjs');
+
+var cm = math.unit('5 cm');
+var mm = math.unit('40 mm');
+var m = math.unit('5 m');
+var array1 = [2, 5, 1];
+var array2 = [2, 7, 1];
+console.log(math.compare(6, 1));   
+console.log(math.compare(cm, mm));   
+console.log(math.compare(2, [1, 2, 3]));  
+console.log(math.deepEqual(2, 4));   
+console.log(math.deepEqual(array1, array2));  
+console.log(math.equal(2 + 2, 4));   
+console.log(math.equal(cm, m));  
+console.log(math.equal(array1, array2));   
+console.log(math.equal(0, null));  
+console.log(math.larger(2, 3));   
+console.log(math.largerEq(2, 1 + 1));  
+console.log(math.smaller(2, 3));   
+console.log(math.smallerEq(1 + 2, 3));  
+console.log(math.unequal(2 + 2, 3));   
