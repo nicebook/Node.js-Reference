@@ -1,0 +1,11 @@
+// aws-eb/package.json
+{
+  "name": "aws-eb",
+  "version": "0.0.1",
+  "description": "A simple HTTP server.",
+  "main": "http-server.js",
+  "scripts": {
+    "start": "node http-server.js"
+  },
+  "license": "MIT license"
+}
