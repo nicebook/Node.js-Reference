@@ -1,0 +1,25 @@
+{
+  "restartable": "rs",
+  "ignore": [ 
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "": "node --harmony",
+    "js": "node --harmony"
+  },
+  "watch": [
+    "app.js",
+    "bin/",
+    "routes/",
+    "views/",
+    "public/",
+  ],
+  "env": {
+    "NODE_ENV": "development", 
+    "PORT": "8000" 
+  },
+  "ext": "js json jade",  
+  "nodeArgs": ["--debug=8080"] 
+}
