@@ -1,0 +1,27 @@
+var math = require('mathjs');
+
+console.log(math.sin(2));  
+console.log(math.cos(math.pi / 4));   
+console.log(math.tan(0.5));  
+console.log(math.sin(0.5) / math.cos(0.5));  
+console.log(math.cot(2));   
+console.log(1 / math.tan(2));  
+console.log(math.sec(2));  
+console.log(1 / math.cos(2));   
+console.log(math.csc(2));   
+console.log(1 / math.sin(2));   
+console.log(math.asin(0.5));  
+console.log(math.atan(0.5));  
+console.log(math.atan2(2, 2) / math.pi);   
+console.log(math.acos(0.5));  
+console.log(math.sinh(0.5));   
+console.log(math.cosh(0.5));   
+console.log(math.tanh(0.5));   
+console.log(math.sinh(0.5) / math.cosh(0.5));  
+console.log(1 / math.coth(0.5));  
+console.log(math.coth(2));   
+console.log(1 / math.tanh(2));  
+console.log(math.sech(0.5));  
+console.log(1 / math.cosh(0.5));   
+console.log(math.csch(0.5));  
+console.log(1 / math.sinh(0.5));  
