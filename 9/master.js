@@ -1,6 +1,6 @@
 var child_process = require('child_process');
 
-var child = child_process.fork('./child.js', []);
+var child = child_process.fork('./child.js');
 
 child.on('close', function (code) {
 
